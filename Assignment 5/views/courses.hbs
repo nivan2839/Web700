@@ -1,0 +1,29 @@
+<div class="row">
+<div class="col-md-12">
+<br>
+<h2>Courses</h2>
+<hr />
+<p>
+    <div class="table-responsive">
+            <table class="table">
+        <thead>
+                <tr>
+                        <th>courseId</th>
+                        <th>courseCode</th>
+                        <th>courseDescription</th>
+                    </tr>
+                </thead>
+    </div>
+    {{#each course}}
+            <tr>
+                            <td>{{this.courseId}}</td>
+                            <td>{{this.courseCode}}</td>
+                            <td>{{this.courseDescription}}</td>
+                        </tr>
+    {{/each}}
+    </tbody>
+            </table>
+        </div>
+</p>
+</div>
+</div>
